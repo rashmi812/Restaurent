@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body {
+     font-family: "Poppins", sans-serif;
+     color: #777 ;
+     line-height: 1.7;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+    color: #222;
+}
+a{
+    color: #222;
+    text-decoration: none;
+    transition: all 0.4s;
+    font-weight: 600;
+}
+a:hover{
+    color: #f58d17;
+
+}
+img{
+    min-width: 100%;
+}
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.slide{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/slider.jpg);
+}
+.bg-cover{
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+/* About */
+#about .divider {
+    width: 60px;
+    height: 2px;
+    display: block;
+    background-color: #F58d17;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  .cp-text{ background-color: #777;
+    color: rgba(0,0,0,.7); text-shadow: 0 1px rgba(255, 255, 255, 0.1)}
+  
